@@ -42,14 +42,9 @@ const Hero = () => {
                     LEET<span className="text-accent neon-text">VERSE</span>
                 </motion.h1>
 
-                <motion.div variants={itemVariants} className="mb-8 max-w-2xl mx-auto">
-                    <p className="text-2xl md:text-3xl text-text-secondary font-mono terminal-text mb-6">
+                <motion.div variants={itemVariants} className="mb-10 max-w-2xl mx-auto">
+                    <p className="text-2xl md:text-3xl text-text-secondary font-mono terminal-text">
                         Compete. Learn. Dominate.
-                    </p>
-                    <p className="text-lg text-text-secondary/80 leading-relaxed font-body">
-                        Join an elite online experience where expert members guide you through
-                        mastering <span className="text-accent">Data Structures & Algorithms in Java</span>.
-                        Engaging workshops, live problem solving, and exclusive <span className="text-accent">Speaker Sessions</span>.
                     </p>
                 </motion.div>
 
@@ -63,7 +58,7 @@ const Hero = () => {
                     </button>
 
                     <button className="px-8 py-4 border border-text-dim text-text-primary font-bold text-lg hover:border-accent hover:text-accent transition-colors">
-                        ABOUT LEETVERSE
+                        ABOUT E-LABS
                     </button>
                 </motion.div>
             </motion.div>
