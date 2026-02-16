@@ -13,7 +13,7 @@ const Connect = () => {
         <footer className="py-24 px-4 border-t border-white/5 relative overflow-hidden">
             {/* Background Text */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[15vw] font-black text-white/[0.02] whitespace-nowrap pointer-events-none uppercase tracking-tighter">
-                E-LABS SOCIETY
+                E-LABS
             </div>
 
             <div className="max-w-5xl mx-auto relative z-10">
@@ -41,7 +41,7 @@ const Connect = () => {
 
                     <div className="space-y-8">
                         <div className="p-8 bg-accent/5 border border-accent/10">
-                            <h3 className="font-mono text-xs uppercase tracking-[0.3em] text-accent mb-4">Society Status</h3>
+                            <h3 className="font-mono text-xs uppercase tracking-[0.3em] text-accent mb-4">Current Status</h3>
                             <div className="space-y-2">
                                 <div className="flex justify-between text-sm">
                                     <span className="text-text-dim">Active Members:</span>
@@ -59,7 +59,7 @@ const Connect = () => {
                         </div>
 
                         <p className="text-text-dim text-xs font-mono">
-                            &copy; {new Date().getFullYear()} E-LABS SOCIETY. ALL RIGHTS RESERVED.
+                            &copy; {new Date().getFullYear()} E-LABS. ALL RIGHTS RESERVED.
                             <br />
                             DESIGNED FOR THE ELITE.
                         </p>

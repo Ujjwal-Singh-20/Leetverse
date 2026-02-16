@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import Hero from './components/Hero';
 import Leaderboard from './components/Leaderboard';
-import Mentors from './components/Mentors';
 import Connect from './components/Connect';
+import Particles from './components/Particles';
 
 function App() {
   useEffect(() => {
@@ -13,8 +13,13 @@ function App() {
   return (
     <div className="min-h-screen bg-background selection:bg-accent selection:text-background">
       {/* Visual background layers */}
-      <div className="fixed inset-0 cyber-grid pointer-events-none opacity-20" />
-      <div className="fixed inset-0 bg-gradient-to-tr from-background via-transparent to-accent/5 pointer-events-none" />
+      <div className="fixed inset-0 cyber-grid pointer-events-none opacity-30" />
+      <div className="fixed inset-0 bg-gradient-to-tr from-background via-transparent to-accent/10 pointer-events-none" />
+
+      {/* Right Side Gradient Flash - More Vibrant */}
+      <div className="fixed top-0 right-0 w-[50vw] h-full bg-gradient-to-l from-accent/20 to-transparent pointer-events-none z-0 blur-[120px] opacity-60" />
+
+      <Particles />
 
       {/* Navigation (Quick scaffold) */}
       <nav className="fixed top-0 left-0 right-0 z-50 px-6 py-4 flex justify-between items-center backdrop-blur-md border-b border-white/5 bg-background/50">
@@ -26,7 +31,6 @@ function App() {
         <div className="hidden md:flex items-center gap-8 text-xs font-mono uppercase tracking-widest">
           <a href="#" className="hover:text-accent transition-colors">Home</a>
           <a href="#leaderboard" className="hover:text-accent transition-colors">Leaderboard</a>
-          <a href="#mentors" className="hover:text-accent transition-colors">Mentors</a>
           <button className="px-4 py-2 border border-accent text-accent hover:bg-accent hover:text-background transition-all">
             REGISTER
           </button>
@@ -36,7 +40,6 @@ function App() {
       <main className="relative z-10">
         <Hero />
         <Leaderboard />
-        <Mentors />
         <Connect />
       </main>
 

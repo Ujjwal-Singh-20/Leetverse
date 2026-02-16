@@ -32,7 +32,7 @@ const Hero = () => {
                 className="relative z-10 text-center"
             >
                 <motion.div variants={itemVariants} className="inline-block mb-4 px-3 py-1 bg-accent/10 border border-accent/20 rounded-full">
-                    <span className="text-accent text-xs font-mono tracking-widest uppercase">E-Labs Society Presents</span>
+                    <span className="text-accent text-xs font-mono tracking-widest uppercase">E-Labs Presents</span>
                 </motion.div>
 
                 <motion.h1
@@ -58,7 +58,7 @@ const Hero = () => {
                     </button>
 
                     <button className="px-8 py-4 border border-text-dim text-text-primary font-bold text-lg hover:border-accent hover:text-accent transition-colors">
-                        ABOUT SOCIETY
+                        ABOUT E-LABS
                     </button>
                 </motion.div>
             </motion.div>
